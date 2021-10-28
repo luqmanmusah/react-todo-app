@@ -1,3 +1,6 @@
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
 import styles from './TodoItem.module.css';
 
@@ -33,7 +36,6 @@ const TodoItem = (props) => {
   }
 
   useEffect(() => () => {
-    console.log('Cleaning up...');
   }, []);
 
   return (
